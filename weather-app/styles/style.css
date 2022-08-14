@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/133953/pexels-photo-133953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 26px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    height: 55px;
+}
+
+.container-sm {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    max-width: 60%;
+}
+
+.form-control {
+    font-size: 28px;
+}
+
+.btn {
+    color: white;
+    font-size: 28px;
+}
+
+.search-submit:active {
+    background-color: #088eb4;
+}
+
+.current-submit {
+    margin-bottom: 10px;
+}
+
+.current-submit:active {
+    background-color: #f7a01d;
+}
+
+.ultraviolet-img {
+    display: inline;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.main-img {
+    width: 40%;
+}
+
+.col-6 {
+    padding: 0;
+    color: white;
+    text-shadow: -2px 2px 2px black;
+}
+
+.temperature {
+    font-size: 100px;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.unit:hover {
+    cursor: pointer;
+}
+
+.unit .marked {
+    margin-left: 0;
+}
+
+.marked {
+    color: #ffa500;
+    margin-left: 10px;
+}
+
+.card {
+    min-width: 17%;
+}
+
+.card-img-top {
+    width: 64px;
+}
