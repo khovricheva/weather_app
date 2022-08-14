@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background-image: url('https://images.pexels.com/photos/133953/pexels-photo-133953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
@@ -90,4 +92,8 @@ input {
 
 .card-img-top {
     width: 64px;
+}
+
+.auth {
+    font-size: 14px;
 }
